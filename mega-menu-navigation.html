@@ -1,0 +1,333 @@
+<!--
+    ========================================
+    MEGA MENU NAVIGATION WITH DROPDOWNS
+    ========================================
+
+    Enhanced navigation bar with product dropdown menus
+    Copy this entire nav section to replace existing navigation
+
+    Features:
+    - Hover dropdowns for Windows and Doors
+    - Shows all product categories and variants
+    - Mobile responsive
+    - Clean, professional design
+-->
+
+<nav id="navbar" class="fixed w-full top-0 z-50 bg-white shadow-md transition-all duration-300">
+    <div class="container mx-auto px-4 lg:px-8">
+        <div class="flex items-center justify-between py-4">
+
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-emerald-primary rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-xl">RD</span>
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-display font-bold text-emerald-primary text-lg leading-tight">Royal Doors</span>
+                    <span class="text-xs text-gold-primary font-semibold leading-tight">& Windows</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation with Mega Menus -->
+            <ul class="hidden lg:flex items-center space-x-6 font-medium text-gray-700">
+
+                <li><a href="index.html" class="hover:text-emerald-primary transition-colors py-8">Home</a></li>
+
+                <li><a href="about.html" class="hover:text-emerald-primary transition-colors py-8">About</a></li>
+
+                <!-- WINDOWS MEGA MENU -->
+                <li class="relative group">
+                    <a href="products/windows/index.html" class="hover:text-emerald-primary transition-colors py-8 flex items-center">
+                        Windows
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </a>
+
+                    <!-- Windows Dropdown -->
+                    <div class="absolute left-0 mt-0 w-80 bg-white shadow-2xl rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-gray-100">
+                        <div class="p-6">
+                            <div class="mb-4">
+                                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Window Products</h3>
+                            </div>
+
+                            <div class="space-y-1">
+                                <!-- Sliding Windows Group -->
+                                <div class="border-b border-gray-100 pb-3 mb-3">
+                                    <a href="products/sliding-windows.html" class="block px-3 py-2 text-emerald-primary font-semibold hover:bg-emerald-50 rounded-lg transition-colors">
+                                        Sliding Windows
+                                    </a>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <a href="products/sliding-windows-2-track.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → 2-Track Sliding
+                                        </a>
+                                        <a href="products/sliding-windows-3-track.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → 3-Track Sliding
+                                        </a>
+                                        <a href="products/sliding-windows-4-track.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → 4-Track Sliding
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Casement Windows Group -->
+                                <div class="border-b border-gray-100 pb-3 mb-3">
+                                    <a href="products/casement-windows.html" class="block px-3 py-2 text-emerald-primary font-semibold hover:bg-emerald-50 rounded-lg transition-colors">
+                                        Casement Windows
+                                    </a>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <a href="products/casement-windows-single.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Single Casement
+                                        </a>
+                                        <a href="products/casement-windows-double.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Double Casement
+                                        </a>
+                                        <a href="products/casement-windows-combination.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Combination Casement
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Fixed Windows Group -->
+                                <div class="border-b border-gray-100 pb-3 mb-3">
+                                    <a href="products/fixed-windows.html" class="block px-3 py-2 text-emerald-primary font-semibold hover:bg-emerald-50 rounded-lg transition-colors">
+                                        Fixed Windows
+                                    </a>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <a href="products/fixed-windows-picture.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Picture Windows
+                                        </a>
+                                        <a href="products/fixed-windows-bay.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Bay Windows
+                                        </a>
+                                        <a href="products/fixed-windows-corner.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-emerald-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Corner Windows
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Other Window Types -->
+                                <a href="products/tilt-turn-windows.html" class="block px-3 py-2 text-gray-700 hover:text-emerald-primary hover:bg-gray-50 rounded-lg transition-colors">
+                                    Tilt & Turn Windows
+                                </a>
+                                <a href="products/ventilators.html" class="block px-3 py-2 text-gray-700 hover:text-emerald-primary hover:bg-gray-50 rounded-lg transition-colors">
+                                    Ventilators
+                                </a>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100">
+                                <a href="products/windows/index.html" class="block text-center gold-gradient text-white px-4 py-2 rounded-lg font-semibold hover:shadow-lg transition-all text-sm">
+                                    View All Windows →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- DOORS MEGA MENU -->
+                <li class="relative group">
+                    <a href="products/doors/index.html" class="hover:text-emerald-primary transition-colors py-8 flex items-center">
+                        Doors
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </a>
+
+                    <!-- Doors Dropdown -->
+                    <div class="absolute left-0 mt-0 w-80 bg-white shadow-2xl rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 border border-gray-100">
+                        <div class="p-6">
+                            <div class="mb-4">
+                                <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Door Products</h3>
+                            </div>
+
+                            <div class="space-y-1">
+                                <!-- Sliding Doors Group -->
+                                <div class="border-b border-gray-100 pb-3 mb-3">
+                                    <a href="products/sliding-doors.html" class="block px-3 py-2 text-gold-primary font-semibold hover:bg-gold-primary/10 rounded-lg transition-colors">
+                                        Sliding Doors
+                                    </a>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <a href="products/sliding-doors-2-panel.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-gold-primary hover:bg-gray-50 rounded transition-colors">
+                                            → 2-Panel Sliding
+                                        </a>
+                                        <a href="products/sliding-doors-3-panel.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-gold-primary hover:bg-gray-50 rounded transition-colors">
+                                            → 3-Panel Sliding
+                                        </a>
+                                        <a href="products/sliding-doors-lift-slide.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-gold-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Lift & Slide Doors
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Casement Doors Group -->
+                                <div class="border-b border-gray-100 pb-3 mb-3">
+                                    <a href="products/casement-doors.html" class="block px-3 py-2 text-gold-primary font-semibold hover:bg-gold-primary/10 rounded-lg transition-colors">
+                                        Casement Doors
+                                    </a>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <a href="products/casement-doors-single.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-gold-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Single Door
+                                        </a>
+                                        <a href="products/casement-doors-double.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-gold-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Double Door
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- French Doors Group -->
+                                <div class="border-b border-gray-100 pb-3 mb-3">
+                                    <a href="products/french-doors.html" class="block px-3 py-2 text-gold-primary font-semibold hover:bg-gold-primary/10 rounded-lg transition-colors">
+                                        French Doors
+                                    </a>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <a href="products/french-doors-inward.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-gold-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Inward Opening
+                                        </a>
+                                        <a href="products/french-doors-outward.html" class="block px-3 py-1.5 text-sm text-gray-600 hover:text-gold-primary hover:bg-gray-50 rounded transition-colors">
+                                            → Outward Opening
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Bi-Fold Doors -->
+                                <a href="products/bifold-doors.html" class="block px-3 py-2 text-gray-700 hover:text-gold-primary hover:bg-gray-50 rounded-lg transition-colors">
+                                    Bi-Fold Doors
+                                </a>
+                            </div>
+
+                            <div class="mt-4 pt-4 border-t border-gray-100">
+                                <a href="products/doors/index.html" class="block text-center gold-gradient text-white px-4 py-2 rounded-lg font-semibold hover:shadow-lg transition-all text-sm">
+                                    View All Doors →
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li><a href="services.html" class="hover:text-emerald-primary transition-colors py-8">Services</a></li>
+
+                <li><a href="gallery.html" class="hover:text-emerald-primary transition-colors py-8">Gallery</a></li>
+
+                <li><a href="blog/index.html" class="hover:text-emerald-primary transition-colors py-8">Blog</a></li>
+
+                <li><a href="contact.html" class="hover:text-emerald-primary transition-colors py-8">Contact</a></li>
+            </ul>
+
+            <!-- Call to Action Button -->
+            <div class="hidden lg:block">
+                <a href="tel:+919148546403" class="gold-gradient text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 inline-flex items-center space-x-2">
+                    <span>📞</span>
+                    <span>Call Now</span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="mobile-menu-button" class="lg:hidden text-emerald-primary focus:outline-none">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden pb-4 max-h-screen overflow-y-auto">
+            <ul class="flex flex-col space-y-2 font-medium text-gray-700">
+                <li><a href="index.html" class="block py-2 hover:text-emerald-primary transition-colors">Home</a></li>
+                <li><a href="about.html" class="block py-2 hover:text-emerald-primary transition-colors">About</a></li>
+
+                <!-- Windows Accordion -->
+                <li>
+                    <button class="mobile-accordion-btn w-full text-left py-2 hover:text-emerald-primary transition-colors flex justify-between items-center">
+                        <span>Windows</span>
+                        <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="mobile-accordion-content hidden pl-4 mt-2 space-y-2">
+                        <a href="products/sliding-windows.html" class="block py-1 text-sm">Sliding Windows</a>
+                        <a href="products/casement-windows.html" class="block py-1 text-sm">Casement Windows</a>
+                        <a href="products/fixed-windows.html" class="block py-1 text-sm">Fixed Windows</a>
+                        <a href="products/tilt-turn-windows.html" class="block py-1 text-sm">Tilt & Turn Windows</a>
+                        <a href="products/ventilators.html" class="block py-1 text-sm">Ventilators</a>
+                    </div>
+                </li>
+
+                <!-- Doors Accordion -->
+                <li>
+                    <button class="mobile-accordion-btn w-full text-left py-2 hover:text-emerald-primary transition-colors flex justify-between items-center">
+                        <span>Doors</span>
+                        <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div class="mobile-accordion-content hidden pl-4 mt-2 space-y-2">
+                        <a href="products/sliding-doors.html" class="block py-1 text-sm">Sliding Doors</a>
+                        <a href="products/casement-doors.html" class="block py-1 text-sm">Casement Doors</a>
+                        <a href="products/french-doors.html" class="block py-1 text-sm">French Doors</a>
+                        <a href="products/bifold-doors.html" class="block py-1 text-sm">Bi-Fold Doors</a>
+                    </div>
+                </li>
+
+                <li><a href="services.html" class="block py-2 hover:text-emerald-primary transition-colors">Services</a></li>
+                <li><a href="gallery.html" class="block py-2 hover:text-emerald-primary transition-colors">Gallery</a></li>
+                <li><a href="blog/index.html" class="block py-2 hover:text-emerald-primary transition-colors">Blog</a></li>
+                <li><a href="contact.html" class="block py-2 hover:text-emerald-primary transition-colors">Contact</a></li>
+
+                <li class="pt-3">
+                    <a href="tel:+919148546403" class="gold-gradient text-white px-6 py-3 rounded-full font-semibold inline-flex items-center space-x-2">
+                        <span>📞</span>
+                        <span>Call Now</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--
+    ADD THIS TO main.js for mobile accordion functionality:
+
+    // Mobile Accordion
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionButtons = document.querySelectorAll('.mobile-accordion-btn');
+
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const content = this.nextElementSibling;
+                const icon = this.querySelector('svg');
+
+                // Close all other accordions
+                document.querySelectorAll('.mobile-accordion-content').forEach(item => {
+                    if (item !== content) {
+                        item.classList.add('hidden');
+                    }
+                });
+
+                // Toggle current accordion
+                content.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+    });
+-->
+
+<style>
+/* Additional CSS for mega menu */
+.group:hover .group-hover\:opacity-100 {
+    opacity: 1 !important;
+}
+
+.group:hover .group-hover\:visible {
+    visibility: visible !important;
+}
+
+/* Smooth dropdown animations */
+nav li > div {
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    transform: translateY(-10px);
+}
+
+nav li:hover > div {
+    transform: translateY(0);
+}
+</style>
