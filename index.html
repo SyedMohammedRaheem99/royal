@@ -1,51 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Royal Doors & Windows - Premium uPVC windows and doors manufacturer in Bengaluru. Durable, weather-resistant and sound-insulated systems for homes and commercial projects.">
-    <meta name="keywords" content="uPVC windows Bengaluru, uPVC doors Bengaluru, sliding windows, casement windows, French doors, window manufacturer Bengaluru">
-    <meta name="author" content="Royal Doors & Windows">
+    <meta name="description" content="Explore our complete range of premium uPVC windows and doors. Sliding, casement, fixed windows, French doors, and more manufactured in Bengaluru.">
+    <meta name="keywords" content="uPVC windows, uPVC doors, sliding windows, casement windows, French doors, Bengaluru">
 
-    <!-- Open Graph Tags -->
-    <meta property="og:title" content="Royal Doors & Windows - Premium uPVC Windows & Doors in Bengaluru">
-    <meta property="og:description" content="Durable, weather-resistant and sound-insulated uPVC window and door systems for homes and commercial projects.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.royaldoorswindows.com">
-    <meta property="og:image" content="https://www.royaldoorswindows.com/images/og-image.jpg">
+    <meta property="og:title" content="Our Products - Premium uPVC Windows & Doors">
+    <meta property="og:description" content="Complete range of uPVC windows and doors manufactured in Bengaluru">
 
-    <!-- Structured Data - LocalBusiness -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Royal Doors & Windows",
-        "description": "Premium uPVC windows and doors manufacturer in Bengaluru",
-        "url": "https://www.royaldoorswindows.com",
-        "telephone": "+919148546403",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Bengaluru",
-            "addressRegion": "Karnataka",
-            "addressCountry": "IN"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": "12.9716",
-            "longitude": "77.5946"
-        },
-        "openingHours": "Mo-Sa 09:00-19:00, Su 10:00-17:00",
-        "priceRange": "₹₹₹"
-    }
-    </script>
+    <title>Our Products - Premium uPVC Windows & Doors | Royal Doors & Windows</title>
 
-    <title>Royal Doors & Windows - Premium uPVC Windows & Doors Manufacturer in Bengaluru</title>
-
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Tailwind Config -->
     <script>
         tailwind.config = {
             theme: {
@@ -53,10 +19,8 @@
                     colors: {
                         'emerald-primary': '#0F5E43',
                         'emerald-dark': '#0A4232',
-                        'emerald-light': '#12734F',
                         'gold-primary': '#D1A94D',
                         'gold-dark': '#B8923F',
-                        'gold-light': '#E5C575',
                     },
                     fontFamily: {
                         'display': ['Montserrat', 'sans-serif'],
@@ -67,43 +31,23 @@
         }
     </script>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Custom Styles -->
     <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Montserrat', sans-serif;
-        }
-        /* Smooth scroll behavior */
-        html {
-            scroll-behavior: smooth;
-        }
-        /* Custom gradient backgrounds */
-        .hero-gradient {
-            background: linear-gradient(135deg, #0F5E43 0%, #12734F 50%, #0A4232 100%);
-        }
-        .gold-gradient {
-            background: linear-gradient(135deg, #D1A94D 0%, #E5C575 100%);
-        }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; }
+        html { scroll-behavior: smooth; }
+        .hero-gradient { background: linear-gradient(135deg, #0F5E43 0%, #12734F 50%, #0A4232 100%); }
+        .gold-gradient { background: linear-gradient(135deg, #D1A94D 0%, #E5C575 100%); }
     </style>
 </head>
 <body class="bg-white text-gray-800">
 
-    <!-- ========================================
-         NAVIGATION BAR - Sticky Header
-    ========================================= -->
+    <!-- NAVIGATION -->
     <nav id="navbar" class="fixed w-full top-0 z-50 bg-white shadow-md transition-all duration-300">
         <div class="container mx-auto px-4 lg:px-8">
             <div class="flex items-center justify-between py-4">
-
-                <!-- Logo -->
-                <a href="index.html" class="flex items-center space-x-2">
+                <a href="../index.html" class="flex items-center space-x-2">
                     <div class="w-10 h-10 bg-emerald-primary rounded-lg flex items-center justify-center">
                         <span class="text-white font-bold text-xl">RD</span>
                     </div>
@@ -113,18 +57,16 @@
                     </div>
                 </a>
 
-                <!-- Desktop Navigation Links -->
                 <ul class="hidden lg:flex items-center space-x-8 font-medium text-gray-700">
-                    <li><a href="index.html" class="hover:text-emerald-primary transition-colors">Home</a></li>
-                    <li><a href="about.html" class="hover:text-emerald-primary transition-colors">About</a></li>
-                    <li><a href="products/index.html" class="hover:text-emerald-primary transition-colors">Products</a></li>
-                    <li><a href="services.html" class="hover:text-emerald-primary transition-colors">Services</a></li>
-                    <li><a href="gallery.html" class="hover:text-emerald-primary transition-colors">Gallery</a></li>
-                    <li><a href="blog/index.html" class="hover:text-emerald-primary transition-colors">Blog</a></li>
-                    <li><a href="contact.html" class="hover:text-emerald-primary transition-colors">Contact</a></li>
+                    <li><a href="../index.html" class="hover:text-emerald-primary transition-colors">Home</a></li>
+                    <li><a href="../about.html" class="hover:text-emerald-primary transition-colors">About</a></li>
+                    <li><a href="index.html" class="text-emerald-primary font-bold">Products</a></li>
+                    <li><a href="../services.html" class="hover:text-emerald-primary transition-colors">Services</a></li>
+                    <li><a href="../gallery.html" class="hover:text-emerald-primary transition-colors">Gallery</a></li>
+                    <li><a href="../blog/index.html" class="hover:text-emerald-primary transition-colors">Blog</a></li>
+                    <li><a href="../contact.html" class="hover:text-emerald-primary transition-colors">Contact</a></li>
                 </ul>
 
-                <!-- Call to Action Button -->
                 <div class="hidden lg:block">
                     <a href="tel:+919148546403" class="gold-gradient text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300 inline-flex items-center space-x-2">
                         <span>📞</span>
@@ -132,7 +74,6 @@
                     </a>
                 </div>
 
-                <!-- Mobile Menu Toggle Button -->
                 <button id="mobile-menu-button" class="lg:hidden text-emerald-primary focus:outline-none">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -140,1094 +81,282 @@
                 </button>
             </div>
 
-            <!-- Mobile Menu -->
             <div id="mobile-menu" class="hidden lg:hidden pb-4">
                 <ul class="flex flex-col space-y-3 font-medium text-gray-700">
-                    <li><a href="index.html" class="block hover:text-emerald-primary transition-colors">Home</a></li>
-                    <li><a href="about.html" class="block hover:text-emerald-primary transition-colors">About</a></li>
-                    <li><a href="products/index.html" class="block hover:text-emerald-primary transition-colors">Products</a></li>
-                    <li><a href="services.html" class="block hover:text-emerald-primary transition-colors">Services</a></li>
-                    <li><a href="gallery.html" class="block hover:text-emerald-primary transition-colors">Gallery</a></li>
-                    <li><a href="blog/index.html" class="block hover:text-emerald-primary transition-colors">Blog</a></li>
-                    <li><a href="contact.html" class="block hover:text-emerald-primary transition-colors">Contact</a></li>
-                    <li class="pt-2">
-                        <a href="tel:+919148546403" class="gold-gradient text-white px-6 py-3 rounded-full font-semibold inline-flex items-center space-x-2">
-                            <span>📞</span>
-                            <span>Call Now</span>
-                        </a>
-                    </li>
+                    <li><a href="../index.html" class="block hover:text-emerald-primary transition-colors">Home</a></li>
+                    <li><a href="../about.html" class="block hover:text-emerald-primary transition-colors">About</a></li>
+                    <li><a href="index.html" class="block text-emerald-primary font-bold">Products</a></li>
+                    <li><a href="../services.html" class="block hover:text-emerald-primary transition-colors">Services</a></li>
+                    <li><a href="../gallery.html" class="block hover:text-emerald-primary transition-colors">Gallery</a></li>
+                    <li><a href="../blog/index.html" class="block hover:text-emerald-primary transition-colors">Blog</a></li>
+                    <li><a href="../contact.html" class="block hover:text-emerald-primary transition-colors">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- ========================================
-         HERO SECTION
-    ========================================= -->
-    <section class="hero-gradient pt-32 pb-20 lg:pt-40 lg:pb-32 relative overflow-hidden">
-        <!-- Decorative Elements -->
-        <div class="absolute top-0 right-0 w-96 h-96 bg-white opacity-5 rounded-full -mr-48 -mt-48"></div>
-        <div class="absolute bottom-0 left-0 w-72 h-72 bg-gold-primary opacity-10 rounded-full -ml-36 -mb-36"></div>
-
-        <div class="container mx-auto px-4 lg:px-8 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-
-                <!-- Hero Text Content -->
-                <div class="text-white space-y-6">
-                    <!-- Trust Badge -->
-                    <div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2">
-                        <span class="text-gold-primary">✓</span>
-                        <span class="text-sm font-semibold">Certified Premium uPVC Manufacturer</span>
-                    </div>
-
-                    <!-- Main Heading -->
-                    <h1 class="text-4xl lg:text-6xl font-display font-bold leading-tight">
-                        Premium uPVC Windows & Doors
-                        <span class="text-gold-primary">Manufactured in Bengaluru</span>
-                    </h1>
-
-                    <!-- Subheading -->
-                    <p class="text-lg lg:text-xl text-white/90 font-light leading-relaxed">
-                        Durable, weather-resistant and sound-insulated systems for homes and commercial projects. Experience German engineering with Indian craftsmanship.
-                    </p>
-
-                    <!-- CTA Buttons -->
-                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
-                        <a href="contact.html" class="gold-gradient text-white px-8 py-4 rounded-full font-semibold text-center hover:shadow-2xl transition-all duration-300 inline-flex items-center justify-center space-x-2">
-                            <span>📋</span>
-                            <span>Request Free Site Visit</span>
-                        </a>
-                        <a href="tel:+919148546403" class="bg-white text-emerald-primary px-8 py-4 rounded-full font-semibold text-center hover:bg-gray-50 transition-all duration-300 inline-flex items-center justify-center space-x-2">
-                            <span>📞</span>
-                            <span>Call +91 91485 46403</span>
-                        </a>
-                    </div>
-
-                    <!-- Quick Stats -->
-                    <div class="grid grid-cols-3 gap-6 pt-8 border-t border-white/20">
-                        <div>
-                            <div class="text-3xl font-bold text-gold-primary">500+</div>
-                            <div class="text-sm text-white/80">Projects Done</div>
-                        </div>
-                        <div>
-                            <div class="text-3xl font-bold text-gold-primary">15+</div>
-                            <div class="text-sm text-white/80">Years Experience</div>
-                        </div>
-                        <div>
-                            <div class="text-3xl font-bold text-gold-primary">10yr</div>
-                            <div class="text-sm text-white/80">Warranty</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Hero Image -->
-                <div class="relative">
-                    <div class="bg-white/10 backdrop-blur-sm rounded-3xl p-2 shadow-2xl">
-                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=700&h=600&fit=crop&auto=format"
-                             alt="Premium uPVC Windows and Doors"
-                             class="rounded-2xl w-full h-auto object-cover shadow-xl">
-                    </div>
-                    <!-- Floating Card -->
-                    <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-2xl p-6 max-w-xs">
-                        <div class="flex items-center space-x-4">
-                            <div class="w-12 h-12 bg-emerald-primary rounded-full flex items-center justify-center">
-                                <span class="text-2xl">✓</span>
-                            </div>
-                            <div>
-                                <div class="font-bold text-emerald-primary">100% Satisfaction</div>
-                                <div class="text-sm text-gray-600">Guaranteed Quality</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
-         PRODUCT CATEGORIES SECTION
-    ========================================= -->
-    <section class="py-20 bg-gray-50">
+    <!-- BREADCRUMB -->
+    <nav class="pt-24 pb-4 bg-gray-50">
         <div class="container mx-auto px-4 lg:px-8">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li><a href="../index.html" class="text-emerald-primary hover:underline">Home</a></li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-600 font-semibold">Products</li>
+            </ol>
+        </div>
+    </nav>
 
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="inline-block bg-emerald-primary/10 text-emerald-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    OUR PRODUCTS
+    <!-- HERO SECTION -->
+    <section class="hero-gradient py-20 text-white">
+        <div class="container mx-auto px-4 lg:px-8 text-center">
+            <div class="max-w-4xl mx-auto">
+                <span class="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                    OUR COMPLETE RANGE
                 </span>
-                <h2 class="text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-4">
-                    Premium uPVC Solutions
-                </h2>
-                <p class="text-lg text-gray-600">
-                    Explore our comprehensive range of energy-efficient, durable, and aesthetically stunning products
+                <h1 class="text-5xl lg:text-6xl font-display font-bold mb-6">
+                    Premium uPVC Windows & Doors
+                </h1>
+                <p class="text-xl text-white/90 mb-8 leading-relaxed">
+                    Explore our comprehensive range of energy-efficient, durable, and aesthetically stunning products. Manufactured in Bengaluru with German precision.
                 </p>
-            </div>
-
-            <!-- Product Cards Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <!-- Product Card 1: Sliding Windows -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=600&h=400&fit=crop&auto=format"
-                             alt="Sliding Windows"
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute top-4 right-4 bg-gold-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
-                            POPULAR
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Sliding Windows</h3>
-                        <p class="text-gray-600 mb-4">
-                            Space-saving design with smooth gliding mechanism. Perfect for modern homes.
-                        </p>
-                        <ul class="space-y-2 mb-6">
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Space Saving Design
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Easy Operation
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Low Maintenance
-                            </li>
-                        </ul>
-                        <a href="products/sliding-windows.html" class="inline-flex items-center text-emerald-primary font-semibold hover:text-gold-primary transition-colors">
-                            Learn More
-                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Product Card 2: Casement Windows -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&h=400&fit=crop&auto=format"
-                             alt="Casement Windows"
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute top-4 right-4 bg-gold-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
-                            BEST SELLER
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Casement Windows</h3>
-                        <p class="text-gray-600 mb-4">
-                            Side-hinged windows offering maximum ventilation and unobstructed views.
-                        </p>
-                        <ul class="space-y-2 mb-6">
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Maximum Ventilation
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Energy Efficient
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Noise Reduction
-                            </li>
-                        </ul>
-                        <a href="products/casement-windows.html" class="inline-flex items-center text-emerald-primary font-semibold hover:text-gold-primary transition-colors">
-                            Learn More
-                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Product Card 3: Fixed Windows -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=600&h=400&fit=crop&auto=format"
-                             alt="Fixed Windows"
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Fixed Windows</h3>
-                        <p class="text-gray-600 mb-4">
-                            Non-opening windows designed for maximum natural light and panoramic views.
-                        </p>
-                        <ul class="space-y-2 mb-6">
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Maximum Natural Light
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Cost Effective
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Zero Maintenance
-                            </li>
-                        </ul>
-                        <a href="products/fixed-windows.html" class="inline-flex items-center text-emerald-primary font-semibold hover:text-gold-primary transition-colors">
-                            Learn More
-                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Product Card 4: Ventilators -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&h=400&fit=crop&auto=format"
-                             alt="Ventilators"
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Ventilators</h3>
-                        <p class="text-gray-600 mb-4">
-                            Compact ventilation solutions for bathrooms, kitchens, and enclosed spaces.
-                        </p>
-                        <ul class="space-y-2 mb-6">
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Enhanced Air Flow
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Compact Design
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Weather Proof
-                            </li>
-                        </ul>
-                        <a href="products/ventilators.html" class="inline-flex items-center text-emerald-primary font-semibold hover:text-gold-primary transition-colors">
-                            Learn More
-                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Product Card 5: Sliding Doors -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&h=400&fit=crop&auto=format"
-                             alt="Sliding Doors"
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Sliding Doors</h3>
-                        <p class="text-gray-600 mb-4">
-                            Seamless indoor-outdoor transitions with elegant sliding door systems.
-                        </p>
-                        <ul class="space-y-2 mb-6">
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Space Maximizer
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Smooth Operation
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Modern Aesthetics
-                            </li>
-                        </ul>
-                        <a href="products/sliding-doors.html" class="inline-flex items-center text-emerald-primary font-semibold hover:text-gold-primary transition-colors">
-                            Learn More
-                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Product Card 6: French Doors -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 group">
-                    <div class="relative overflow-hidden h-64">
-                        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600&h=400&fit=crop&auto=format"
-                             alt="French Doors"
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute top-4 right-4 bg-gold-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
-                            PREMIUM
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-3">French Doors</h3>
-                        <p class="text-gray-600 mb-4">
-                            Elegant double-door systems adding sophistication to your living spaces.
-                        </p>
-                        <ul class="space-y-2 mb-6">
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Elegant Design
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Wide Opening
-                            </li>
-                            <li class="flex items-center text-sm text-gray-700">
-                                <span class="text-emerald-primary mr-2">✓</span>
-                                Premium Finish
-                            </li>
-                        </ul>
-                        <a href="products/french-doors.html" class="inline-flex items-center text-emerald-primary font-semibold hover:text-gold-primary transition-colors">
-                            Learn More
-                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- View All Products Button -->
-            <div class="text-center mt-12">
-                <a href="products/index.html" class="inline-flex items-center gold-gradient text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all duration-300">
-                    View All Products
+                <a href="../contact.html" class="inline-flex items-center gold-gradient text-white px-8 py-4 rounded-full font-semibold hover:shadow-2xl transition-all duration-300">
+                    Request Free Consultation
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- ========================================
-         WHY CHOOSE uPVC SECTION
-    ========================================= -->
+    <!-- PRODUCT CATEGORIES -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4 lg:px-8">
 
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="inline-block bg-gold-primary/10 text-gold-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    WHY uPVC?
-                </span>
-                <h2 class="text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-4">
-                    Benefits of uPVC Windows & Doors
-                </h2>
-                <p class="text-lg text-gray-600">
-                    Discover why uPVC is the preferred choice for modern homes and commercial spaces
-                </p>
+            <!-- Windows and Doors Main Categories -->
+            <div class="grid md:grid-cols-2 gap-12 mb-20">
+
+                <!-- Windows Category -->
+                <div class="group cursor-pointer" onclick="window.location.href='windows/index.html'">
+                    <div class="relative overflow-hidden rounded-3xl shadow-2xl h-96 mb-6">
+                        <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=800&h=600&fit=crop&auto=format"
+                             alt="uPVC Windows"
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-emerald-primary/90 to-transparent flex items-end p-8">
+                            <div class="text-white">
+                                <h2 class="text-4xl font-display font-bold mb-2">Windows</h2>
+                                <p class="text-lg text-white/90 mb-4">Sliding, Casement, Fixed & More</p>
+                                <span class="inline-flex items-center text-gold-primary font-semibold">
+                                    Explore Windows
+                                    <svg class="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-4 rounded-xl">
+                            <div class="text-2xl mb-2">🪟</div>
+                            <div class="font-semibold text-gray-900">10+ Types</div>
+                            <div class="text-sm text-gray-600">Window Solutions</div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-xl">
+                            <div class="text-2xl mb-2">✓</div>
+                            <div class="font-semibold text-gray-900">Energy Saving</div>
+                            <div class="text-sm text-gray-600">30-40% Reduction</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doors Category -->
+                <div class="group cursor-pointer" onclick="window.location.href='doors/index.html'">
+                    <div class="relative overflow-hidden rounded-3xl shadow-2xl h-96 mb-6">
+                        <img src="https://images.unsplash.com/photo-600210492486-724fe5c67fb0?w=800&h=600&fit=crop&auto=format"
+                             alt="uPVC Doors"
+                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-gold-primary/90 to-transparent flex items-end p-8">
+                            <div class="text-white">
+                                <h2 class="text-4xl font-display font-bold mb-2">Doors</h2>
+                                <p class="text-lg text-white/90 mb-4">Sliding, French, Casement & Folding</p>
+                                <span class="inline-flex items-center text-white font-semibold">
+                                    Explore Doors
+                                    <svg class="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-50 p-4 rounded-xl">
+                            <div class="text-2xl mb-2">🚪</div>
+                            <div class="font-semibold text-gray-900">8+ Styles</div>
+                            <div class="text-sm text-gray-600">Door Options</div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-xl">
+                            <div class="text-2xl mb-2">🔒</div>
+                            <div class="font-semibold text-gray-900">High Security</div>
+                            <div class="text-sm text-gray-600">Multi-Point Locks</div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <!-- Benefits Grid -->
+            <!-- Quick Product Links -->
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-display font-bold text-gray-900 mb-4">Browse by Product Type</h2>
+                <p class="text-lg text-gray-600">Click any product to explore detailed options and variants</p>
+            </div>
+
+            <!-- Windows Grid -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-bold text-emerald-primary mb-6 flex items-center">
+                    <span class="text-3xl mr-3">🪟</span>
+                    Window Products
+                </h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <a href="windows/sliding-windows/index.html" class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-emerald-primary hover:shadow-lg transition-all duration-300 group">
+                        <div class="text-3xl mb-3">⬅️➡️</div>
+                        <h4 class="font-bold text-lg mb-2 group-hover:text-emerald-primary transition-colors">Sliding Windows</h4>
+                        <p class="text-sm text-gray-600 mb-3">Space-saving with smooth operation</p>
+                        <span class="text-emerald-primary text-sm font-semibold">View Options →</span>
+                    </a>
+
+                    <a href="windows/casement-windows/index.html" class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-emerald-primary hover:shadow-lg transition-all duration-300 group">
+                        <div class="text-3xl mb-3">↗️</div>
+                        <h4 class="font-bold text-lg mb-2 group-hover:text-emerald-primary transition-colors">Casement Windows</h4>
+                        <p class="text-sm text-gray-600 mb-3">Maximum ventilation & views</p>
+                        <span class="text-emerald-primary text-sm font-semibold">View Options →</span>
+                    </a>
+
+                    <a href="windows/fixed-windows/index.html" class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-emerald-primary hover:shadow-lg transition-all duration-300 group">
+                        <div class="text-3xl mb-3">🖼️</div>
+                        <h4 class="font-bold text-lg mb-2 group-hover:text-emerald-primary transition-colors">Fixed Windows</h4>
+                        <p class="text-sm text-gray-600 mb-3">Maximum light, zero maintenance</p>
+                        <span class="text-emerald-primary text-sm font-semibold">View Options →</span>
+                    </a>
+
+                    <a href="windows/ventilators/index.html" class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-emerald-primary hover:shadow-lg transition-all duration-300 group">
+                        <div class="text-3xl mb-3">🌬️</div>
+                        <h4 class="font-bold text-lg mb-2 group-hover:text-emerald-primary transition-colors">Ventilators</h4>
+                        <p class="text-sm text-gray-600 mb-3">Compact ventilation solutions</p>
+                        <span class="text-emerald-primary text-sm font-semibold">View Options →</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Doors Grid -->
+            <div>
+                <h3 class="text-2xl font-bold text-gold-primary mb-6 flex items-center">
+                    <span class="text-3xl mr-3">🚪</span>
+                    Door Products
+                </h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <a href="doors/sliding-doors/index.html" class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-gold-primary hover:shadow-lg transition-all duration-300 group">
+                        <div class="text-3xl mb-3">↔️</div>
+                        <h4 class="font-bold text-lg mb-2 group-hover:text-gold-primary transition-colors">Sliding Doors</h4>
+                        <p class="text-sm text-gray-600 mb-3">Space maximizer, smooth glide</p>
+                        <span class="text-gold-primary text-sm font-semibold">View Options →</span>
+                    </a>
+
+                    <a href="doors/casement-doors/index.html" class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-gold-primary hover:shadow-lg transition-all duration-300 group">
+                        <div class="text-3xl mb-3">🚪</div>
+                        <h4 class="font-bold text-lg mb-2 group-hover:text-gold-primary transition-colors">Casement Doors</h4>
+                        <p class="text-sm text-gray-600 mb-3">Traditional style, modern tech</p>
+                        <span class="text-gold-primary text-sm font-semibold">View Options →</span>
+                    </a>
+
+                    <a href="doors/french-doors/index.html" class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-gold-primary hover:shadow-lg transition-all duration-300 group">
+                        <div class="text-3xl mb-3">🎨</div>
+                        <h4 class="font-bold text-lg mb-2 group-hover:text-gold-primary transition-colors">French Doors</h4>
+                        <p class="text-sm text-gray-600 mb-3">Elegant double-door systems</p>
+                        <span class="text-gold-primary text-sm font-semibold">View Options →</span>
+                    </a>
+
+                    <a href="doors/folding-doors/index.html" class="bg-white border-2 border-gray-200 rounded-xl p-6 hover:border-gold-primary hover:shadow-lg transition-all duration-300 group">
+                        <div class="text-3xl mb-3">📐</div>
+                        <h4 class="font-bold text-lg mb-2 group-hover:text-gold-primary transition-colors">Bi-Fold Doors</h4>
+                        <p class="text-sm text-gray-600 mb-3">Premium folding systems</p>
+                        <span class="text-gold-primary text-sm font-semibold">View Options →</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE OUR PRODUCTS -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-4xl font-display font-bold text-gray-900 mb-4">Why Choose Our uPVC Products?</h2>
+                <p class="text-lg text-gray-600">German engineering meets Indian craftsmanship</p>
+            </div>
+
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-                <!-- Benefit 1 -->
-                <div class="text-center p-6 rounded-2xl hover:bg-gray-50 transition-all duration-300">
-                    <div class="w-20 h-20 bg-emerald-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <span class="text-4xl">🛡️</span>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-emerald-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <span class="text-3xl">🏆</span>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Weather Resistant</h3>
-                    <p class="text-gray-600">
-                        Withstands extreme weather conditions, rain, humidity, and temperature variations
-                    </p>
+                    <h3 class="font-bold text-lg mb-2">ISO Certified</h3>
+                    <p class="text-gray-600 text-sm">Premium quality materials and processes</p>
                 </div>
 
-                <!-- Benefit 2 -->
-                <div class="text-center p-6 rounded-2xl hover:bg-gray-50 transition-all duration-300">
-                    <div class="w-20 h-20 bg-gold-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <span class="text-4xl">🔇</span>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gold-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <span class="text-3xl">⚡</span>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Sound Insulation</h3>
-                    <p class="text-gray-600">
-                        Reduces external noise by up to 80%, creating peaceful indoor environments
-                    </p>
+                    <h3 class="font-bold text-lg mb-2">Energy Efficient</h3>
+                    <p class="text-gray-600 text-sm">Save 30-40% on AC costs</p>
                 </div>
 
-                <!-- Benefit 3 -->
-                <div class="text-center p-6 rounded-2xl hover:bg-gray-50 transition-all duration-300">
-                    <div class="w-20 h-20 bg-emerald-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <span class="text-4xl">⚡</span>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-emerald-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <span class="text-3xl">🛡️</span>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Energy Efficient</h3>
-                    <p class="text-gray-600">
-                        Superior thermal insulation reduces AC costs by 30-40% with double glazing
-                    </p>
+                    <h3 class="font-bold text-lg mb-2">10-Year Warranty</h3>
+                    <p class="text-gray-600 text-sm">Comprehensive coverage included</p>
                 </div>
 
-                <!-- Benefit 4 -->
-                <div class="text-center p-6 rounded-2xl hover:bg-gray-50 transition-all duration-300">
-                    <div class="w-20 h-20 bg-gold-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <span class="text-4xl">🔧</span>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gold-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <span class="text-3xl">🎨</span>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Low Maintenance</h3>
-                    <p class="text-gray-600">
-                        No painting, polishing, or special care needed. Easy to clean and maintain
-                    </p>
-                </div>
-
-                <!-- Benefit 5 -->
-                <div class="text-center p-6 rounded-2xl hover:bg-gray-50 transition-all duration-300">
-                    <div class="w-20 h-20 bg-emerald-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <span class="text-4xl">🐛</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Termite Proof</h3>
-                    <p class="text-gray-600">
-                        100% termite-proof material ensures long-lasting durability and protection
-                    </p>
-                </div>
-
-                <!-- Benefit 6 -->
-                <div class="text-center p-6 rounded-2xl hover:bg-gray-50 transition-all duration-300">
-                    <div class="w-20 h-20 bg-gold-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <span class="text-4xl">🔒</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">High Security</h3>
-                    <p class="text-gray-600">
-                        Multi-point locking systems and reinforced frames provide maximum security
-                    </p>
-                </div>
-
-                <!-- Benefit 7 -->
-                <div class="text-center p-6 rounded-2xl hover:bg-gray-50 transition-all duration-300">
-                    <div class="w-20 h-20 bg-emerald-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <span class="text-4xl">🌿</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Eco-Friendly</h3>
-                    <p class="text-gray-600">
-                        Recyclable material with minimal environmental impact and sustainable production
-                    </p>
-                </div>
-
-                <!-- Benefit 8 -->
-                <div class="text-center p-6 rounded-2xl hover:bg-gray-50 transition-all duration-300">
-                    <div class="w-20 h-20 bg-gold-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <span class="text-4xl">⏰</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Long Lasting</h3>
-                    <p class="text-gray-600">
-                        25+ years lifespan with minimal degradation, backed by 10-year warranty
-                    </p>
+                    <h3 class="font-bold text-lg mb-2">Custom Designs</h3>
+                    <p class="text-gray-600 text-sm">Tailored to your requirements</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========================================
-         SERVICES OVERVIEW SECTION
-    ========================================= -->
-    <section class="py-20 bg-gradient-to-br from-emerald-primary to-emerald-dark text-white">
-        <div class="container mx-auto px-4 lg:px-8">
-
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    OUR SERVICES
-                </span>
-                <h2 class="text-4xl lg:text-5xl font-display font-bold mb-4">
-                    Complete uPVC Solutions
-                </h2>
-                <p class="text-lg text-white/90">
-                    From consultation to installation, we handle every aspect with precision and care
-                </p>
-            </div>
-
-            <!-- Services Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <!-- Service 1 -->
-                <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-300">
-                    <div class="w-16 h-16 bg-gold-primary rounded-xl flex items-center justify-center mb-6">
-                        <span class="text-3xl">📐</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Free Consultation</h3>
-                    <p class="text-white/80 leading-relaxed">
-                        Expert guidance on product selection, design options, and cost estimation with on-site visits.
-                    </p>
-                </div>
-
-                <!-- Service 2 -->
-                <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-300">
-                    <div class="w-16 h-16 bg-gold-primary rounded-xl flex items-center justify-center mb-6">
-                        <span class="text-3xl">⚙️</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Custom Manufacturing</h3>
-                    <p class="text-white/80 leading-relaxed">
-                        State-of-the-art facilities with German machinery for precision-crafted products.
-                    </p>
-                </div>
-
-                <!-- Service 3 -->
-                <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-300">
-                    <div class="w-16 h-16 bg-gold-primary rounded-xl flex items-center justify-center mb-6">
-                        <span class="text-3xl">🔧</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Professional Installation</h3>
-                    <p class="text-white/80 leading-relaxed">
-                        Certified technicians ensure perfect fitting with advanced tools and techniques.
-                    </p>
-                </div>
-
-                <!-- Service 4 -->
-                <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-300">
-                    <div class="w-16 h-16 bg-gold-primary rounded-xl flex items-center justify-center mb-6">
-                        <span class="text-3xl">🏠</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Residential Projects</h3>
-                    <p class="text-white/80 leading-relaxed">
-                        Transform apartments and villas with energy-efficient windows and doors.
-                    </p>
-                </div>
-
-                <!-- Service 5 -->
-                <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-300">
-                    <div class="w-16 h-16 bg-gold-primary rounded-xl flex items-center justify-center mb-6">
-                        <span class="text-3xl">🏢</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Commercial Solutions</h3>
-                    <p class="text-white/80 leading-relaxed">
-                        Large-scale installations for offices, hotels, and commercial buildings.
-                    </p>
-                </div>
-
-                <!-- Service 6 -->
-                <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 hover:bg-white/20 transition-all duration-300">
-                    <div class="w-16 h-16 bg-gold-primary rounded-xl flex items-center justify-center mb-6">
-                        <span class="text-3xl">🛠️</span>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">After-Sales Support</h3>
-                    <p class="text-white/80 leading-relaxed">
-                        Comprehensive maintenance with 10-year warranty covering all defects.
-                    </p>
-                </div>
-            </div>
-
-            <!-- CTA Button -->
-            <div class="text-center mt-12">
-                <a href="services.html" class="inline-flex items-center gold-gradient text-white px-8 py-4 rounded-full font-semibold hover:shadow-2xl transition-all duration-300">
-                    View All Services
-                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
-         PROCESS SECTION (4 Steps)
-    ========================================= -->
-    <section class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4 lg:px-8">
-
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="inline-block bg-emerald-primary/10 text-emerald-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    OUR PROCESS
-                </span>
-                <h2 class="text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-4">
-                    Simple 4-Step Process
-                </h2>
-                <p class="text-lg text-gray-600">
-                    From measurement to installation, we ensure a seamless experience
-                </p>
-            </div>
-
-            <!-- Process Steps -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-                <!-- Step 1: Measurement -->
-                <div class="relative text-center">
-                    <!-- Step Number -->
-                    <div class="w-20 h-20 bg-emerald-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                        01
-                    </div>
-                    <div class="bg-white rounded-2xl p-6 shadow-lg">
-                        <div class="text-4xl mb-4">📏</div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">Measurement</h3>
-                        <p class="text-gray-600">
-                            Free site visit and accurate measurement by our expert team
-                        </p>
-                    </div>
-                    <!-- Connecting Line (hidden on mobile) -->
-                    <div class="hidden lg:block absolute top-10 left-1/2 w-full h-0.5 bg-emerald-primary/30" style="z-index: -1;"></div>
-                </div>
-
-                <!-- Step 2: Fabrication -->
-                <div class="relative text-center">
-                    <div class="w-20 h-20 bg-gold-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                        02
-                    </div>
-                    <div class="bg-white rounded-2xl p-6 shadow-lg">
-                        <div class="text-4xl mb-4">🏭</div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">Fabrication</h3>
-                        <p class="text-gray-600">
-                            Custom manufacturing at our facility with quality checks
-                        </p>
-                    </div>
-                    <div class="hidden lg:block absolute top-10 left-1/2 w-full h-0.5 bg-gold-primary/30" style="z-index: -1;"></div>
-                </div>
-
-                <!-- Step 3: Installation -->
-                <div class="relative text-center">
-                    <div class="w-20 h-20 bg-emerald-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                        03
-                    </div>
-                    <div class="bg-white rounded-2xl p-6 shadow-lg">
-                        <div class="text-4xl mb-4">🔨</div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">Installation</h3>
-                        <p class="text-gray-600">
-                            Professional installation by certified technicians
-                        </p>
-                    </div>
-                    <div class="hidden lg:block absolute top-10 left-1/2 w-full h-0.5 bg-emerald-primary/30" style="z-index: -1;"></div>
-                </div>
-
-                <!-- Step 4: Support -->
-                <div class="relative text-center">
-                    <div class="w-20 h-20 bg-gold-primary text-white rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
-                        04
-                    </div>
-                    <div class="bg-white rounded-2xl p-6 shadow-lg">
-                        <div class="text-4xl mb-4">✅</div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">Support</h3>
-                        <p class="text-gray-600">
-                            10-year warranty and ongoing maintenance support
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
-         ABOUT PREVIEW SECTION
-    ========================================= -->
-    <section class="py-20 bg-white">
-        <div class="container mx-auto px-4 lg:px-8">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-
-                <!-- Image Side -->
-                <div class="relative">
-                    <div class="rounded-3xl overflow-hidden shadow-2xl">
-                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&h=600&fit=crop&auto=format"
-                             alt="About Royal Doors & Windows"
-                             class="w-full h-auto object-cover">
-                    </div>
-                    <!-- Experience Badge -->
-                    <div class="absolute -bottom-6 -right-6 bg-gold-primary text-white rounded-2xl p-6 shadow-2xl">
-                        <div class="text-4xl font-bold">15+</div>
-                        <div class="text-sm">Years of<br>Excellence</div>
-                    </div>
-                </div>
-
-                <!-- Content Side -->
-                <div class="space-y-6">
-                    <span class="inline-block bg-gold-primary/10 text-gold-primary px-4 py-2 rounded-full text-sm font-semibold">
-                        ABOUT US
-                    </span>
-
-                    <h2 class="text-4xl lg:text-5xl font-display font-bold text-gray-900">
-                        Your Trusted Partner for Premium uPVC Solutions
-                    </h2>
-
-                    <p class="text-lg text-gray-600 leading-relaxed">
-                        At Royal Doors & Windows, we specialize in manufacturing, supplying, and installing world-class uPVC windows and doors. With over 15 years of expertise, we've transformed countless homes and commercial spaces across Bengaluru.
-                    </p>
-
-                    <p class="text-lg text-gray-600 leading-relaxed">
-                        Our commitment to quality, precision engineering, and customer satisfaction has made us the preferred choice for discerning clients who demand nothing but the best.
-                    </p>
-
-                    <!-- Features List -->
-                    <div class="grid sm:grid-cols-2 gap-4 pt-4">
-                        <div class="flex items-start space-x-3">
-                            <div class="w-6 h-6 bg-emerald-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                                <span class="text-white text-xs">✓</span>
-                            </div>
-                            <div>
-                                <div class="font-semibold text-gray-900">ISO Certified</div>
-                                <div class="text-sm text-gray-600">Premium uPVC profiles</div>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-3">
-                            <div class="w-6 h-6 bg-emerald-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                                <span class="text-white text-xs">✓</span>
-                            </div>
-                            <div>
-                                <div class="font-semibold text-gray-900">Expert Team</div>
-                                <div class="text-sm text-gray-600">Trained technicians</div>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-3">
-                            <div class="w-6 h-6 bg-emerald-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                                <span class="text-white text-xs">✓</span>
-                            </div>
-                            <div>
-                                <div class="font-semibold text-gray-900">Custom Designs</div>
-                                <div class="text-sm text-gray-600">Tailored solutions</div>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start space-x-3">
-                            <div class="w-6 h-6 bg-emerald-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                                <span class="text-white text-xs">✓</span>
-                            </div>
-                            <div>
-                                <div class="font-semibold text-gray-900">10-Year Warranty</div>
-                                <div class="text-sm text-gray-600">Complete assurance</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- CTA Button -->
-                    <div class="pt-4">
-                        <a href="about.html" class="inline-flex items-center text-emerald-primary font-semibold text-lg hover:text-gold-primary transition-colors">
-                            Learn More About Us
-                            <svg class="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
-         GALLERY PREVIEW SECTION
-    ========================================= -->
-    <section class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4 lg:px-8">
-
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="inline-block bg-emerald-primary/10 text-emerald-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    OUR WORK
-                </span>
-                <h2 class="text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-4">
-                    Completed Projects Gallery
-                </h2>
-                <p class="text-lg text-gray-600">
-                    See how we've transformed spaces across Bengaluru with our premium uPVC solutions
-                </p>
-            </div>
-
-            <!-- Gallery Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                <!-- Gallery Item 1 -->
-                <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=500&fit=crop&auto=format"
-                         alt="Luxury Villa Project"
-                         class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div class="text-white">
-                            <h3 class="text-xl font-bold mb-1">Luxury Villa</h3>
-                            <p class="text-sm">Complete uPVC Installation</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 2 -->
-                <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=500&fit=crop&auto=format"
-                         alt="Modern Apartment"
-                         class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div class="text-white">
-                            <h3 class="text-xl font-bold mb-1">Modern Apartment</h3>
-                            <p class="text-sm">Sliding Windows & Doors</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 3 -->
-                <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=500&fit=crop&auto=format"
-                         alt="Commercial Office"
-                         class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div class="text-white">
-                            <h3 class="text-xl font-bold mb-1">Commercial Office</h3>
-                            <p class="text-sm">Large-Scale Installation</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 4 -->
-                <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&h=500&fit=crop&auto=format"
-                         alt="Balcony Sliding Door"
-                         class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div class="text-white">
-                            <h3 class="text-xl font-bold mb-1">Balcony Installation</h3>
-                            <p class="text-sm">Premium Sliding Doors</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 5 -->
-                <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                    <img src="https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=600&h=500&fit=crop&auto=format"
-                         alt="Fixed Window"
-                         class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div class="text-white">
-                            <h3 class="text-xl font-bold mb-1">Living Room</h3>
-                            <p class="text-sm">Large Fixed Windows</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Gallery Item 6 -->
-                <div class="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600&h=500&fit=crop&auto=format"
-                         alt="French Doors"
-                         class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500">
-                    <div class="absolute inset-0 bg-gradient-to-t from-emerald-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div class="text-white">
-                            <h3 class="text-xl font-bold mb-1">Elegant Entrance</h3>
-                            <p class="text-sm">Premium French Doors</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- View Gallery Button -->
-            <div class="text-center mt-12">
-                <a href="gallery.html" class="inline-flex items-center gold-gradient text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all duration-300">
-                    View Full Gallery
-                    <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
-         TESTIMONIALS SECTION
-    ========================================= -->
-    <section class="py-20 bg-white">
-        <div class="container mx-auto px-4 lg:px-8">
-
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="inline-block bg-gold-primary/10 text-gold-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    TESTIMONIALS
-                </span>
-                <h2 class="text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-4">
-                    What Our Customers Say
-                </h2>
-                <p class="text-lg text-gray-600">
-                    Real experiences from satisfied homeowners and businesses across Bengaluru
-                </p>
-            </div>
-
-            <!-- Testimonials Grid -->
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <!-- Testimonial 1 -->
-                <div class="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                    <div class="flex items-center mb-4">
-                        <div class="flex text-gold-primary text-xl">★★★★★</div>
-                    </div>
-                    <p class="text-gray-700 italic mb-6 leading-relaxed">
-                        "Exceptional quality and professional service! Royal Doors & Windows transformed our home with beautiful uPVC windows. The energy savings are noticeable, and the noise reduction is incredible."
-                    </p>
-                    <div class="flex items-center">
-                        <div class="w-12 h-12 bg-emerald-primary rounded-full flex items-center justify-center text-white font-bold text-lg">
-                            RS
-                        </div>
-                        <div class="ml-4">
-                            <div class="font-bold text-gray-900">Rajesh Sharma</div>
-                            <div class="text-sm text-gray-600">Homeowner, Indiranagar</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 2 -->
-                <div class="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                    <div class="flex items-center mb-4">
-                        <div class="flex text-gold-primary text-xl">★★★★★</div>
-                    </div>
-                    <p class="text-gray-700 italic mb-6 leading-relaxed">
-                        "We chose Royal Doors for our office renovation, and they exceeded expectations. Punctual, professional, and delivered exactly what they promised. Highly recommended!"
-                    </p>
-                    <div class="flex items-center">
-                        <div class="w-12 h-12 bg-gold-primary rounded-full flex items-center justify-center text-white font-bold text-lg">
-                            PK
-                        </div>
-                        <div class="ml-4">
-                            <div class="font-bold text-gray-900">Priya Krishnan</div>
-                            <div class="text-sm text-gray-600">Business Owner, Koramangala</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 3 -->
-                <div class="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300">
-                    <div class="flex items-center mb-4">
-                        <div class="flex text-gold-primary text-xl">★★★★★</div>
-                    </div>
-                    <p class="text-gray-700 italic mb-6 leading-relaxed">
-                        "Outstanding craftsmanship! From consultation to installation, everything was seamless. The French doors they installed are absolutely stunning. Worth every rupee!"
-                    </p>
-                    <div class="flex items-center">
-                        <div class="w-12 h-12 bg-emerald-primary rounded-full flex items-center justify-center text-white font-bold text-lg">
-                            AM
-                        </div>
-                        <div class="ml-4">
-                            <div class="font-bold text-gray-900">Anand Murthy</div>
-                            <div class="text-sm text-gray-600">Homeowner, Whitefield</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
-         FAQ SECTION
-    ========================================= -->
-    <section class="py-20 bg-gray-50">
-        <div class="container mx-auto px-4 lg:px-8">
-
-            <!-- Section Header -->
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="inline-block bg-emerald-primary/10 text-emerald-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                    FAQ
-                </span>
-                <h2 class="text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-4">
-                    Frequently Asked Questions
-                </h2>
-                <p class="text-lg text-gray-600">
-                    Everything you need to know about uPVC windows and doors
-                </p>
-            </div>
-
-            <!-- FAQ Container -->
-            <div class="max-w-3xl mx-auto space-y-4">
-
-                <!-- FAQ Item 1 -->
-                <div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-                    <button class="faq-question w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        <span class="font-semibold text-gray-900 pr-8">What are the benefits of uPVC windows over traditional windows?</span>
-                        <span class="faq-icon text-emerald-primary text-2xl flex-shrink-0">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-                            uPVC windows offer superior energy efficiency, excellent sound insulation, zero maintenance (no painting required), termite and weather resistance, and longevity of 25+ years. They're eco-friendly and available in various colors to match your aesthetic.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 2 -->
-                <div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-                    <button class="faq-question w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        <span class="font-semibold text-gray-900 pr-8">How long does installation take?</span>
-                        <span class="faq-icon text-emerald-primary text-2xl flex-shrink-0">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-                            For a typical residential project, installation takes 2-5 days depending on the number of windows and doors. Manufacturing takes 7-10 days after measurements. We provide a detailed timeline during the free site visit.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 3 -->
-                <div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-                    <button class="faq-question w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        <span class="font-semibold text-gray-900 pr-8">Do you provide warranty on products?</span>
-                        <span class="faq-icon text-emerald-primary text-2xl flex-shrink-0">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-                            Yes! We provide a comprehensive 10-year warranty covering manufacturing defects, hardware issues, and profile discoloration. Our after-sales support team is always available to address any concerns.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 4 -->
-                <div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-                    <button class="faq-question w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        <span class="font-semibold text-gray-900 pr-8">Can uPVC windows reduce electricity bills?</span>
-                        <span class="faq-icon text-emerald-primary text-2xl flex-shrink-0">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-                            Absolutely! uPVC windows with double glazing provide excellent thermal insulation. Most customers report 30-40% reduction in AC costs. The energy savings pay for the investment over time.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 5 -->
-                <div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-                    <button class="faq-question w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        <span class="font-semibold text-gray-900 pr-8">What customization options are available?</span>
-                        <span class="faq-icon text-emerald-primary text-2xl flex-shrink-0">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-                            We offer extensive customization including various profiles (casement, sliding, fixed), multiple color options (white, wood finish, custom colors), hardware choices, glass options (clear, frosted, tinted), and custom sizes.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- FAQ Item 6 -->
-                <div class="faq-item bg-white rounded-2xl shadow-md overflow-hidden">
-                    <button class="faq-question w-full text-left p-6 flex justify-between items-center hover:bg-gray-50 transition-colors">
-                        <span class="font-semibold text-gray-900 pr-8">Do you serve areas outside Bengaluru?</span>
-                        <span class="faq-icon text-emerald-primary text-2xl flex-shrink-0">+</span>
-                    </button>
-                    <div class="faq-answer">
-                        <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-                            Yes, we serve Bengaluru and surrounding areas within 100km radius. For projects outside this area, please contact us to discuss feasibility and logistics.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ========================================
-         CTA STRIP SECTION
-    ========================================= -->
+    <!-- CTA SECTION -->
     <section class="py-20 hero-gradient text-white">
         <div class="container mx-auto px-4 lg:px-8 text-center">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-4xl lg:text-5xl font-display font-bold mb-6">
-                    Ready to Transform Your Space?
+                    Can't Decide Which Product?
                 </h2>
-                <p class="text-xl text-white/90 mb-8 leading-relaxed">
-                    Get a free consultation and site visit from our experts. No obligations, just honest advice and competitive quotes.
+                <p class="text-xl text-white/90 mb-8">
+                    Our experts will help you choose the perfect solution for your needs
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="contact.html" class="gold-gradient text-white px-8 py-4 rounded-full font-semibold hover:shadow-2xl transition-all duration-300 inline-flex items-center justify-center space-x-2">
-                        <span>📋</span>
-                        <span>Request Free Site Visit</span>
+                    <a href="../contact.html" class="gold-gradient text-white px-8 py-4 rounded-full font-semibold hover:shadow-2xl transition-all duration-300">
+                        Request Free Consultation
                     </a>
-                    <a href="tel:+919148546403" class="bg-white text-emerald-primary px-8 py-4 rounded-full font-semibold hover:bg-gray-50 transition-all duration-300 inline-flex items-center justify-center space-x-2">
-                        <span>📞</span>
-                        <span>Call +91 91485 46403</span>
+                    <a href="tel:+919148546403" class="bg-white text-emerald-primary px-8 py-4 rounded-full font-semibold hover:bg-gray-50 transition-all duration-300">
+                        Call +91 91485 46403
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ========================================
-         FOOTER
-    ========================================= -->
+    <!-- FOOTER -->
     <footer class="bg-gray-900 text-white pt-16 pb-8">
         <div class="container mx-auto px-4 lg:px-8">
-
-            <!-- Footer Main Content -->
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-
-                <!-- Company Info -->
                 <div class="space-y-4">
                     <div class="flex items-center space-x-2 mb-6">
                         <div class="w-10 h-10 bg-emerald-primary rounded-lg flex items-center justify-center">
@@ -1238,123 +367,51 @@
                             <span class="text-xs text-gold-primary font-semibold leading-tight">& Windows</span>
                         </div>
                     </div>
-                    <p class="text-gray-400 leading-relaxed">
-                        Premium uPVC windows and doors manufacturer in Bengaluru. Combining German engineering with Indian craftsmanship.
-                    </p>
-                    <div class="flex space-x-4 pt-4">
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold-primary transition-colors">
-                            <span>📘</span>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold-primary transition-colors">
-                            <span>📸</span>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-gold-primary transition-colors">
-                            <span>🐦</span>
-                        </a>
-                    </div>
+                    <p class="text-gray-400 leading-relaxed">Premium uPVC windows and doors manufacturer in Bengaluru.</p>
                 </div>
 
-                <!-- Quick Links -->
                 <div>
                     <h3 class="text-gold-primary font-bold text-lg mb-6">Quick Links</h3>
                     <ul class="space-y-3">
-                        <li><a href="index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
-                        <li><a href="about.html" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-                        <li><a href="products/index.html" class="text-gray-400 hover:text-white transition-colors">Products</a></li>
-                        <li><a href="services.html" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
-                        <li><a href="gallery.html" class="text-gray-400 hover:text-white transition-colors">Gallery</a></li>
-                        <li><a href="blog/index.html" class="text-gray-400 hover:text-white transition-colors">Blog</a></li>
-                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="../index.html" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="../about.html" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+                        <li><a href="index.html" class="text-white font-semibold">Products</a></li>
+                        <li><a href="../contact.html" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
                     </ul>
                 </div>
 
-                <!-- Products -->
                 <div>
-                    <h3 class="text-gold-primary font-bold text-lg mb-6">Our Products</h3>
+                    <h3 class="text-gold-primary font-bold text-lg mb-6">Products</h3>
                     <ul class="space-y-3">
-                        <li><a href="products/sliding-windows.html" class="text-gray-400 hover:text-white transition-colors">Sliding Windows</a></li>
-                        <li><a href="products/casement-windows.html" class="text-gray-400 hover:text-white transition-colors">Casement Windows</a></li>
-                        <li><a href="products/fixed-windows.html" class="text-gray-400 hover:text-white transition-colors">Fixed Windows</a></li>
-                        <li><a href="products/ventilators.html" class="text-gray-400 hover:text-white transition-colors">Ventilators</a></li>
-                        <li><a href="products/sliding-doors.html" class="text-gray-400 hover:text-white transition-colors">Sliding Doors</a></li>
-                        <li><a href="products/french-doors.html" class="text-gray-400 hover:text-white transition-colors">French Doors</a></li>
+                        <li><a href="windows/index.html" class="text-gray-400 hover:text-white transition-colors">Windows</a></li>
+                        <li><a href="doors/index.html" class="text-gray-400 hover:text-white transition-colors">Doors</a></li>
+                        <li><a href="accessories/index.html" class="text-gray-400 hover:text-white transition-colors">Accessories</a></li>
                     </ul>
                 </div>
 
-                <!-- Contact Info -->
                 <div>
-                    <h3 class="text-gold-primary font-bold text-lg mb-6">Contact Us</h3>
-                    <ul class="space-y-4">
-                        <li class="flex items-start space-x-3">
-                            <span class="text-gold-primary">📞</span>
-                            <div>
-                                <div class="text-gray-400 text-sm">Phone</div>
-                                <a href="tel:+919148546403" class="text-white font-semibold hover:text-gold-primary transition-colors">
-                                    +91 91485 46403
-                                </a>
-                            </div>
-                        </li>
-                        <li class="flex items-start space-x-3">
-                            <span class="text-gold-primary">📧</span>
-                            <div>
-                                <div class="text-gray-400 text-sm">Email</div>
-                                <a href="mailto:info@royaldoorswindows.com" class="text-white font-semibold hover:text-gold-primary transition-colors">
-                                    info@royaldoorswindows.com
-                                </a>
-                            </div>
-                        </li>
-                        <li class="flex items-start space-x-3">
-                            <span class="text-gold-primary">📍</span>
-                            <div>
-                                <div class="text-gray-400 text-sm">Location</div>
-                                <div class="text-white font-semibold">
-                                    Bengaluru, Karnataka, India
-                                </div>
-                            </div>
-                        </li>
-                        <li class="flex items-start space-x-3">
-                            <span class="text-gold-primary">🕒</span>
-                            <div>
-                                <div class="text-gray-400 text-sm">Business Hours</div>
-                                <div class="text-white text-sm">
-                                    Mon-Sat: 9:00 AM - 7:00 PM<br>
-                                    Sun: 10:00 AM - 5:00 PM
-                                </div>
-                            </div>
-                        </li>
+                    <h3 class="text-gold-primary font-bold text-lg mb-6">Contact</h3>
+                    <ul class="space-y-3">
+                        <li class="text-gray-400">📞 <a href="tel:+919148546403" class="hover:text-white">+91 91485 46403</a></li>
+                        <li class="text-gray-400">📧 <a href="mailto:info@royaldoorswindows.com" class="hover:text-white">info@royaldoorswindows.com</a></li>
+                        <li class="text-gray-400">📍 Bengaluru, Karnataka</li>
                     </ul>
                 </div>
             </div>
 
-            <!-- Footer Bottom -->
-            <div class="border-t border-gray-800 pt-8">
-                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-                    <p class="text-gray-400 text-sm text-center md:text-left">
-                        © 2024 Royal Doors & Windows. All Rights Reserved.
-                    </p>
-                    <div class="flex space-x-6 text-sm">
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Sitemap</a>
-                    </div>
-                </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
+                © 2024 Royal Doors & Windows. All Rights Reserved.
             </div>
         </div>
     </footer>
 
-    <!-- ========================================
-         FLOATING WHATSAPP BUTTON
-    ========================================= -->
+    <!-- FLOATING WHATSAPP -->
     <a href="https://wa.me/919148546403?text=Hi,%20I'm%20interested%20in%20uPVC%20windows%20and%20doors"
        class="fixed bottom-6 right-6 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 z-50"
-       target="_blank"
-       aria-label="Chat on WhatsApp">
+       target="_blank">
         <span class="text-4xl">💬</span>
     </a>
 
-    <!-- ========================================
-         JAVASCRIPT
-    ========================================= -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
