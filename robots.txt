@@ -1,0 +1,43 @@
+# robots.txt for Royal Doors & Windows
+# www.royaldoorswindows.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.royaldoorswindows.com/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 10
+
+# Allow all search engines to index images
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional - uncomment if needed)
+# User-agent: AhrefsBot
+# Disallow: /
+
+# User-agent: SemrushBot
+# Disallow: /
+
+# File types to be crawled
+# Allow: /*.html$
+# Allow: /*.jpg$
+# Allow: /*.png$
+# Allow: /*.css$
+# Allow: /*.js$
